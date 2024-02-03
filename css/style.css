@@ -1,0 +1,270 @@
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url(../font/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url(../font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Couture";
+    src: url(../font/couture-bld.otf);
+}
+
+@font-face {
+    font-family: "PTSerif";
+    src: url(../font/pt-serif_regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url("../img/Header/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container__header {
+    width: 1010px;
+    margin: 0 auto;
+}
+
+.menu__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.inner__list {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+}
+
+.inner__list a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+
+}
+
+.inner__list a:hover {
+    background-color: #130e27;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.header__text {
+    font-size: 20px;
+    font-family: "PT Serif";
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    padding: 50px 0 160px 0;
+    width: 500px;
+
+}
+
+.header__title {
+    font-size: 90px;
+    font-family: "Montserrat";
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.header__title span {
+    color: white;
+}
+
+.header__offer {
+    padding-left: 20px;
+    padding-top: 160px;
+}
+
+.services__container {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.services__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+    text-align: center;
+
+}
+
+.services__text {
+    width: 160px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.services__title {
+    font-size: 50px;
+    font-family: "Couture";
+    color: #130e27;
+    font-weight: bold;
+    padding-top: 45px;
+
+}
+
+.s__title__span {
+    color: #c62314;
+}
+
+.services__item {
+    padding-top: 100px;
+}
+
+.call {
+    background-color: #130e27;
+}
+
+.call__container {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.call__btn {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    background-color: #c62314;
+    padding: 20px 65px;
+    border-radius: 5px;
+}
+
+.call__btn:hover {
+    background-color: #9c1c10;
+}
+
+.inner__call {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call__text {
+    font-size: 20px;
+    font-family: "PT Serif";
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    width: 650px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pricing {
+    background-color: #efefef;
+}
+
+.pricing__container {
+    width: 990px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pricing__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.pricing__title {
+    font-size: 50px;
+    font-family: "Montserrat";
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    padding: 60px 0 60px;
+
+}
+
+.pricing__item {
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.pricing__btn {
+    text-decoration: none;
+    color: white;
+    background-color: #130e27;
+    font-size: 22px;
+    font-family: "Montserrat";
+    border-radius: 5px;
+    max-width: 90px;
+    padding: 15px 60px;
+}
+
+.pricing__btn:hover {
+    background-color: #c62314;
+}
+
+.first__title {
+    font-size: 22px;
+    font-family: "PT Serif";
+    color: rgb(22, 22, 22);
+    padding: 35px 0px 0px;
+
+}
+
+.main__title {
+    font-size: 60px;
+    font-family: "Montserrat";
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    padding: 30px 0px 35px;
+}
+
+.last__title {
+    font-size: 20px;
+    font-family: "PT Serif";
+    color: rgb(22, 22, 22);
+    line-height: 28px;
+    padding: 0px 70px 50px;
+}
+
+.p__btn {
+    padding-bottom: 30px;
+}
+
+.footer {
+    background-color: #130e27;
+}
+
+.footer__container {
+    width: 1010px;
+    margin: 0 auto;
+}
+
+.inner__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+}
+
+
+.footer__text a {
+    text-decoration: none;
+    color: #c62314;
+}
+
+.footer__text {
+    font-size: 20px;
+    font-family: "PT Serif";
+    color: rgb(255, 255, 255);
+
+}
